@@ -1,0 +1,111 @@
+/* CSS Document */
+@charset "UTF-8";
+
+.sp_only{display: none;}
+.c_cover img{width:100%;height:100%;object-fit:cover;}
+.c_contain img{width:100%;height:100%;object-fit:contain;}
+
+
+.Serif{font-family: "Noto Serif JP", serif;}
+
+
+a[href^="tel:"]{pointer-events:none;}
+html{font-size:calc(1000vw / 1400);}/*10px;*/
+/*
+
+@media(min-width:900px){
+	a[href^="tel:"]{pointer-events:none;}
+ 	.sp_only{display: none!important;}
+}@media(max-width:899px){
+	.pc_only{display: none!important;}
+
+}
+*/
+
+/*以降に記載ください*/
+
+/*  index.php  */
+
+
+.global-style {
+	background: #f2f0ec;
+}
+
+/* ヘッダーエリア
+=========================== */
+
+.headerMenu {
+	width: 1400px;
+	margin: 0 auto;
+	padding: 20px 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+.header-logo {
+	width: 45px;
+	height: auto;
+}
+
+
+.menu-line01 {
+	width: 24px;
+	height: 1px;
+	background: #241d14;
+	position: absolute;
+}
+
+.menu-line02 {
+	top: 29px;
+	width: 24px;
+	height: 1px;
+	background: #241d14;
+	position: absolute;
+}
+
+/* メインエリア
+=========================== */
+
+.inner {
+	width: 1400px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.top {
+	margin-top: 50px;
+	padding: 0 150px;
+	display: flex;
+	align-items: start;
+	width: 100%;
+}
+
+.top-left {
+	width: 42.3%;
+}
+
+.top-title {
+margin-top: 330px;
+font-size: 19px;
+line-height: 32px;
+}
+
+.top-text {
+	margin-top: 30px;
+	width: 275px;
+	font-size: 15px;
+	line-height: 32px;
+	letter-spacing: .05em;
+}
+
+.top-right {
+	margin-top: 30px;
+
+}
+
+.top-img {
+	width: 638px;
+	height: auto;
+}
