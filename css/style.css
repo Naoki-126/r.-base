@@ -101,6 +101,7 @@ line-height: 32px;
 }
 
 .top-right {
+	width: calc(100% - 42.3%);
 	margin-top: 30px;
 
 }
@@ -109,3 +110,4 @@ line-height: 32px;
 	width: 638px;
 	height: auto;
 }
+
