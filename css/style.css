@@ -57,6 +57,11 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 	height: 20px;
 }
 
+.sns-line {
+	width: 20px;
+	height: 20px;
+}
+
 .sns-instaLink {
 	margin-left: 15px;
 	width: 160px;
@@ -401,4 +406,101 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 	padding-left: 100px;
 	width: 585px;
 	height: auto;
+}
+
+.reservation {
+	margin: 180px auto 0;
+	padding: 0 150px;
+}
+
+.reservation-contents {
+	padding: 90px 100px;
+	border: 1px solid #eedc86;
+	display: flex;
+}
+
+.reservation-left {
+	width: 44.5%;
+
+}
+
+.reservation-right {
+	width: calc(100% - 44.5%);
+}
+
+.reservation.title {
+
+}
+
+.reservation-text {
+	margin-top: 60px;
+	width: 260px;
+	font-size: 15px;
+	line-height: 32px;
+	letter-spacing: .05em;
+
+
+}
+
+.reservation-bannerArea {
+
+
+}
+
+.reservation-banner {
+	background: #fff;
+	padding: 15px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.reservation-logo {
+	width: 70px;
+	height: auto;
+}
+
+.reservation-line {
+	width: 196px;
+	height: auto;
+
+}
+
+.reservation-qr {
+	width: 110px;
+	height: auto;
+}
+
+.reservation-banner2 {
+	margin-top: 18px;
+	align-items: center;
+	background: #fff;
+	padding: 15px 20px;
+	text-align: center;
+}
+
+.reservation-number {
+	font-size: 42px;
+	line-height: 74px;
+	letter-spacing: .09em;
+}
+
+.resevation-time {
+	font-size: 15px;
+	line-height: 32px;
+	letter-spacing: .05em;
+}
+
+/* フッターエリア
+=========================== */
+
+.footer {
+
+}
+
+.footer-contents {
+	margin-top: 100px;
+	padding: 0 150px;
+	border-top: 1px solid #eedc86;
+	display: flex;
 }
