@@ -30,60 +30,76 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 /* 共通パーツ
 =========================== */
 
-.global-style {
+.c_global-style {
 	background: #f2f0ec;
 }
 
-.cursive-title {
+.c_text01 {
+	font-size: 15px;
+	line-height: 32px;
+	letter-spacing: .05px;
+}
+
+.c_cursive-title {
 	width: 180px;
 	height: auto;
 }
 
-.title-trans {
+.c_title-trans {
 	margin-top: 25px;
 	color: #a78f45;
 	font-size: 13px;
 	line-height: 32px;
-	letter-spacing: .2em;
+	letter-spacing: .2px;
+	font-weight: 500;
 }
 
-.sns-instaArea {
+.c_instaArea {
 	display: flex;
 	align-items: center;
 }
 
-.sns-insta {
+.c_insta {
 	width: 20px;
 	height: 20px;
 }
 
-.sns-line {
+.c_line {
 	width: 20px;
 	height: 20px;
 }
 
-.sns-instaLink {
+.c_instaLink {
 	margin-left: 15px;
-	width: 160px;
 	height: auto;
 	cursor: pointer;
+	padding: 6px 18px;
+	border: 1px solid #dad5c7 ;
+	border-radius: 26px;
 }
 
-.insta-text {
+.c_instaLink-name {
+	font-size: 14px;
+	line-height: 40px;
+	letter-spacing: .05px;
+}
+
+.c_insta-text {
 	margin-top: 10px;
 	font-size: 15px;
-	letter-spacing: .05em;
+	line-height: 40px;
+	letter-spacing: .05px;
 }
 
-.googleMap {
+.c_googleMap {
 	color: #a78f45;
 	font-size: 15px;
 	line-height: 32px;
-	letter-spacing: .05em;
+	letter-spacing: .05px;
 	position: relative;
 }
 
-.googleMap::after {
+.c_googleMap::after {
 	content: "";
 	width: 15px;
 	height: 20px;
@@ -115,7 +131,6 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 	height: auto;
 }
 
-
 .menu-line01 {
 	width: 24px;
 	height: 1px;
@@ -135,16 +150,13 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 =========================== */
 
 .inner {
-	width: 1400px;
+	width: 100%;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
 .top {
 	margin: 50px auto 0;
-	padding: 0 150px;
-	display: flex;
-	align-items: start;
-	margin-top: 50px;
 	padding: 0 150px;
 	display: flex;
 	align-items: start;
@@ -158,14 +170,12 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 	margin-top: 330px;
 	font-size: 19px;
 	line-height: 32px;
+	letter-spacing: .1px;
 }
 
 .top-text {
 	margin-top: 30px;
 	width: 275px;
-	font-size: 15px;
-	line-height: 32px;
-	letter-spacing: .05em;
 }
 
 .top-right {
@@ -212,9 +222,6 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 .concept-text {
 	margin-top: 20px;
 	width: 362px;
-	font-size: 15px;
-	line-height: 32px;
-	letter-spacing: .05em;
 }
 
 .menu {
@@ -231,9 +238,6 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 
 .menu-list {
 	margin-top: 60px;
-	font-size: 15px;
-	line-height: 32px;
-	letter-spacing: .05em;
 }
 
 .menu-sns {
@@ -279,9 +283,6 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 .news-item {
 	padding-top: 24px;
 	position: relative;
-	font-size: 15px;
-	line-height: 32px;
-	letter-spacing: .05em;
 }
 
 .news-item::before {
@@ -314,9 +315,10 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 }
 
 .news-index {
+	margin-top: 10px;
 	font-size: 15px;
 	line-height: 32px;
-	letter-spacing: .1em;
+	letter-spacing: .1px;
 	color: #a78f45;
 	position: relative;
 }
@@ -482,25 +484,89 @@ html{font-size:calc(1000vw / 1400);}/*10px;*/
 .reservation-number {
 	font-size: 42px;
 	line-height: 74px;
-	letter-spacing: .09em;
-}
-
-.resevation-time {
-	font-size: 15px;
-	line-height: 32px;
-	letter-spacing: .05em;
+	letter-spacing: .09px;
 }
 
 /* フッターエリア
 =========================== */
 
 .footer {
-
+	margin-top: 100px;
+	padding: 0 150px;
 }
 
 .footer-contents {
-	margin-top: 100px;
-	padding: 0 150px;
+	padding-top: 50px;
+	width: 1100px;
 	border-top: 1px solid #eedc86;
 	display: flex;
+	justify-content: space-between;
+}
+
+.footer-left{
+	width: 50%;
+}
+
+.footer-menuList {
+	font-size: 24px;
+	line-height: 42px;
+	letter-spacing: .02px;
+}
+
+.footer-menu {
+
+}
+
+.footer-snsArea {
+  margin-top: 50px;
+}
+
+.footer-sns {
+  padding-right: 25px;
+}
+
+.footer-right {
+	margin-top: 130px;
+	text-align: right;
+}
+
+
+.footer-logo {
+
+}
+
+.footer-textArea {
+	padding-top: 20px;
+}
+
+.footer.text {
+	font-size: 13px;
+	line-height: 23px;
+	letter-spacing: .05px;
+}
+
+.footer-lower {
+  margin: 50px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 10px;
+	line-height: 17.5px;
+	letter-spacing: .1px;
+}
+
+.to-top {
+	position: relative;
+	padding-right: 30px;
+
+}
+
+.to-top::after {
+	position: absolute;
+	content: "";
+	background: url(../img/common/arrow-up.png)no-repeat center center /contain;
+	width: 8px;
+	height: 4px;
+	top: 25%;
+	right: -0px;
 }
