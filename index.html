@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>エール</title>
+      <!-- googlefonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
       <!-- CSS -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style_sp.css">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body class="c_global-style">
-    <header class="headerMenu">
-      <div class="header-logoArea">
-        <h2 class="header-logo">
-          <img src="./img/common/logo.png" alt="エールロゴ">
-        </h2>
-      </div>
-      <div class="header-menuArea">
-        <a href="#" class="header-humburger">
-          <span class="menu-line01"></span>
-          <span class="menu-line02"></span>
-        </a>
+    <header class="c_inner">
+      <div class="header">
+        <div class="header-logoArea">
+          <h2 class="header-logo">
+            <img src="./img/common/logo.png" alt="エールロゴ">
+          </h2>
+        </div>
+        <div class="header-menuArea">
+          <a href="#" class="header-humburger">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </a>
+        </div>
       </div>
     </header>
-    <main class="inner">
+    <main class="c_inner">
       <section class="top">
         <div class="top-left">
           <h2 class="top-title">ヘアサロン エール</h2>
@@ -42,35 +46,43 @@
           <img src="./img/common/concept-img.jpg" alt="コンセプト画像" class="concept-img">
         </div>
         <div class="concept-right">
-          <h2 class="concept-title"><img src="./img/common/concept-cursive.png" alt="コンセプトタイトル" class="c_cursive-title"></h2>
-          <p class="c_title-trans">コンセプト</p>
-          <h3 class="concept-subTitle">美しい髪は健康な頭皮から。</h3>
-          <div class="concept-text">
-            <p class="c_text01">
-              徹底的に髪と頭皮の健康にこだわります。人と地球にやさしい天然ハーブエキス配合のシャンプー＆トリートメントや、ヘアカラー剤、パーマ液、スタイリング剤にいたるまで、安全性の極めて高い素材を厳選しております。髪と心にやすらぎを与え、髪の悩みを解消し、新しい質感を実現します。
-            </p>
+          <div class="concept-contentsArea">
+            <h2 class="concept-titleArea"><img src="./img/common/concept-cursive.png" alt="コンセプトタイトル" class="concept-title"></h2>
+            <div class="concept-transArea">
+              <p class="c_title-trans">コンセプト</p>
+            </div>
+            <h3 class="concept-subTitle">美しい髪は健康な頭皮から。</h3>
+            <div class="concept-text">
+              <p class="c_text01">
+                徹底的に髪と頭皮の健康にこだわります。人と地球にやさしい天然ハーブエキス配合のシャンプー＆トリートメントや、ヘアカラー剤、パーマ液、スタイリング剤にいたるまで、安全性の極めて高い素材を厳選しております。髪と心にやすらぎを与え、髪の悩みを解消し、新しい質感を実現します。
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="menu">
         <div class="menu-left">
-          <h2 class="menu-title"><img src="./img/common/menu-cursive.png" alt="メニュータイトル" class="c_cursive-title"></h2>
-          <p class="c_title-trans">メニュー</p>
-          <div class="menu-list">
-            <p class="c_text01">
-              -  ヘアサロン<br>
-              -  リラクゼーション<br>
-              -  ヘッドスパ<br>
-              -  ジェルネイル
-            </p>
-          </div>
+          <div class="menu-contentsArea">
+            <h2 class="menu-titleArea"><img src="./img/common/menu-cursive.png" alt="メニュータイトル" class="menu-title"></h2>
+            <div class="menu-transArea">
+              <p class="c_title-trans">メニュー</p>
+            </div>
+            <div class="menu-list">
+              <p class="c_text01">
+                -  ヘアサロン<br>
+                -  リラクゼーション<br>
+                -  ヘッドスパ<br>
+                -  ジェルネイル
+              </p>
+            </div>
             <div class="menu-sns">
               <div class="c_instaArea">
                 <img src="./img/common/insta-img.png" alt="インスタロゴ" class="c_insta">
-                <a href="#" class="c_instaLink"><p class=".c_instaLink-name">hairsalon+cafe r.</p></a>
+                <a href="#" class="c_instaLink"><p class="c_instaLink-name">hairsalon+cafe r.</p></a>
               </div>
               <p class="c_insta-text">最新情報はInstagramから</p>
             </div>
+          </div>
         </div>
         <div class="menu-right">
           <img src="./img/common/menu-img.jpg" alt="メニュー画像" class="menu-img">
@@ -81,60 +93,74 @@
           <img src="./img/common/news-img.jpg" alt="ニュース画像" class="news-img">
         </div>
         <div class="news-right">
-          <h2 class="news-title"><img src="./img/common/news-cursive.png" alt="ニュースタイトル" class="c_cursive-title"></h2>
-          <p class="c_title-trans">お知らせ</p>
-          <ul class="news-items">
-            <li class="news-item c_text01">2023.02.19<span class="news-itemTitle">VOSサロンケア</span></li>
-            <li class="news-item c_text01">2023.02.19<span class="news-itemTitle">3月の定休日のお知らせ</span></li>
-            <li class="news-item c_text01">2016.03.31<span class="news-itemTitle">ホームページリニューアルしました。</span></li>
-            <div class="news-index">お知らせ一覧</div>
-          </ul>
+          <div class="news-contentsArea">
+            <h2 class="news-titleArea"><img src="./img/common/news-cursive.png" alt="ニュースタイトル" class="news-title"></h2>
+            <div class="news-transArea">
+              <p class="c_title-trans">お知らせ</p>
+            </div>
+            <ul class="news-items">
+              <li class="news-item c_text01">2023.02.19<span class="news-itemTitle">VOSサロンケア</span></li>
+              <li class="news-item c_text01">2023.02.19<span class="news-itemTitle">3月の定休日のお知らせ</span></li>
+              <li class="news-item c_text01">2016.03.31<span class="news-itemTitle">ホームページリニューアルしました。</span></li>
+              <p class="news-index">お知らせ一覧</p>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="access">
         <div class="access-left">
-          <h2 class="access-title"><img src="./img/common/access-cursive.png" alt="アクセスタイトル" class="c_cursive-title"></h2>
-          <p class="c_title-trans">サロン情報</p>
-          <h3 class="access-name c_text01">ヘアサロン ｒ．（エール）</h3>
-          <p class="access-address c_text01">〒444-0931　愛知県岡崎市渡町字桑の木38-1</p>
-          <a href="#" class="c_googleMap">Google Map</a>
-          <div class="access-detail c_text01">
-            <dl class="access-dl">
-              <dt class="access-dt">tel.</dt>
-              <dd class="access-dd">0564-34-0075（予約優先）</dd>
-            </dl>
-            <dl class="access-dl">
-              <dt class="access-dt">営業時間： </dt>
-              <dd class="access-dd">	10:00～19:00</dd>
-            </dl>
-            <dl class="access-dl">
-              <dt class="access-dt">定休日：</dt>
-              <dd class="access-dd">毎週月曜日/第2・3火曜日</dd>
-            </dl>
-          </div>
-          <div class="access-sns">
-            <div class="c_instaArea">
-              <img src="./img/common/insta-img.png" alt="インスタロゴ" class="c_insta">
-              <a href="#" class="c_instaLink"><p class=".c_instaLink-name">hairsalon+cafe r.</p></a>
+          <div class="access-contentsArea">
+            <h2 class="access-titleArea"><img src="./img/common/access-cursive.png" alt="アクセスタイトル" class="access-title"></h2>
+            <div class="access-transArea">
+              <p class="c_title-trans">サロン情報</p>
             </div>
-            <p class="c_insta-text">最新情報はInstagramから</p>
+            <h3 class="access-name c_text01">ヘアサロン ｒ．（エール）</h3>
+            <p class="access-address c_text01">〒444-0931 愛知県岡崎市渡町字桑の木38-1</p>
+            <a href="#" class="c_googleMap">Google Map</a>
+            <div class="access-detail c_text01">
+              <dl class="access-dl">
+                <dt class="access-dt">tel.</dt>
+                <dd class="access-dd">0564-34-0075（予約優先）</dd>
+              </dl>
+              <dl class="access-dl">
+                <dt class="access-dt">営業時間： </dt>
+                <dd class="access-dd">	10:00～19:00</dd>
+              </dl>
+              <dl class="access-dl">
+                <dt class="access-dt">定休日：</dt>
+                <dd class="access-dd">毎週月曜日/第2・3火曜日</dd>
+              </dl>
+            </div>
+            <div class="access-sns">
+              <div class="c_instaArea">
+                <img src="./img/common/insta-img.png" alt="インスタロゴ" class="c_insta">
+                <a href="#" class="c_instaLink"><p class="c_instaLink-name">hairsalon+cafe r.</p></a>
+              </div>
+              <p class="c_insta-text">最新情報はInstagramから</p>
+            </div>
           </div>
-          <img src="./img/common/access-img1.jpg" alt="アクセス画像1" class="access-imgPic1">
         </div>
         <div class="access-right">
           <img src="./img/common/access-map.png" alt="アクセスマップ" class="access-img">
-          <img src="./img/common/acccess-img2.jpg" alt="アクセス画像2" class="acccess-imgPic2">
         </div>
       </section>
+      <div class="imgArea">
+        <img src="./img/common/img-area1.jpg" alt="イメージ画像1" class="img-area1">
+        <img src="./img/common/img-area2.jpg" alt="イメージ画像2" class="img-area2">
+      </div>
       <section class="reservation">
-        <div class="reservation-contents">
+        <div class="reservation-wrap">
           <div class="reservation-left">
-            <h2 class="reservation-title"><img src="./img/common/reservation-cursive.png" alt="予約タイトル" class="c_cursive-title"></h2>
-            <p class="c_title-trans">ご予約／お問い合わせ</p>
-            <div class="reservation-text">
-              <p class="c_text01">
-                ご予約、お問い合わせはLINEまたはお電話でお気軽にどうぞ
-              </p>
+            <div class="reservation-contentsArea">
+              <h2 class="reservation-titleArea"><img src="./img/common/reservation-cursive.png" alt="予約タイトル" class="reservation-title"></h2>
+              <div class="reservation-trans">
+                <p class="c_title-trans">ご予約／お問い合わせ</p>
+              </div>
+              <div class="reservation-text">
+                <p class="c_text01">
+                  ご予約、お問い合わせはLINEまたはお電話でお気軽にどうぞ
+                </p>
+              </div>
             </div>
           </div>
           <div class="reservation-right">
@@ -146,17 +172,16 @@
               </div>
               <div class="reservation-banner2">
                 <h3 class="reservation-number">tel.0564-34-0075</h3>
-                <p class="c_text01">営業時間 10:00～19:00（予約優先）</p>
+                <p class="reservation-time c_text01">営業時間 10:00～19:00（予約優先）</p>
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="inner">
+    <footer class="c_inner">
       <div class="footer">
         <div class="footer-contents">
-
           <div class="footer-left">
             <ul class="footer-menuList">
               <li class="footer-menu"><a href="">Concept</a></li>
@@ -171,7 +196,7 @@
             </div>
           </div>
           <div class="footer-right">
-            <a href="" class="footer-logo"> <img src="./img/common/logo-reserve.png" alt="ロゴマーク" class="reservation-logo"></a>
+            <a href="" class="footer-logoArea"> <img src="./img/common/logo-reserve.png" alt="ロゴマーク" class="footer-logo"></a>
             <div class="footer-textArea">
               <p class="footer-text">ヘアサロン ｒ．（エール）<br>
                 〒444-0931 愛知県岡崎市渡町字桑の木38-1<br>
